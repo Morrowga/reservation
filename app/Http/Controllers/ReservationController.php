@@ -96,7 +96,7 @@ class ReservationController extends Controller
     public function update(Request $request, $id){
         $email = $request->header('email');
         $user = User::where('email', '=', $email)->first();
-        if ($user !== null) {
+        if ($user !== null && $user->role === 'hotel_manager') {
             if($request->room !== '1'){
                 $rtype = [
                     "standard" => $request->room_type[0],
@@ -150,7 +150,7 @@ class ReservationController extends Controller
         $email = $request->header('email');
         $reservation = Reservation::where('id', '=', $id)->first();
         $user = User::where('email', '=', $email)->first();
-        if($user !== null){
+        if ($user !== null) {
             if ($reservation !== null) {
                 $message = [
                     "status" => "200",
@@ -176,7 +176,7 @@ class ReservationController extends Controller
     public function delete(Request $request,$id){
         $email = $request->header('email');
         $user = User::where('email', '=', $email)->first();
-        if($user !== null){
+        if ($user !== null && $user->role === 'hotel_manager') {
             $reservation = Reservation::where('id', '=', $id)->first();
 
             if($reservation !== null){
