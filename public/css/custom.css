@@ -1,0 +1,140 @@
+.res {
+    background-color: #fff !important;
+    color: #000 !important;
+    border-color: rgb(153, 39, 14);
+    font-size: 15px;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    margin-top: 10px !important;
+    font-weight: bold;
+    line-height: 4;
+    letter-spacing: 1px;
+}
+
+.res:hover{
+    border-color: #000;
+    background-color: rgb(153, 39, 14) !important;
+    transition-duration: 1s !important;
+    color: #000 !important;
+}
+
+.col-mar {
+    margin-top: 80px;
+}
+
+
+.fa-check-circle{
+    color: green !important;
+}
+
+.log-warn{
+    margin-top: 10% !important;
+}
+
+#nav-hotel{
+    background-color: rgb(153, 39, 14) !important;
+}
+
+.text{
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none !important;
+}
+
+.card-login{
+    /* transform: rotateX(45deg); */
+    transform: perspective(400px) rotateX(10deg);
+    background-color: rgb(0,0,0,0.9) !important;
+    box-shadow: 2px 2px 15px rgb(153, 39, 14);
+}
+
+.text-head{
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.submit-login{
+    background-color: #fff !important;
+    color: #000 !important;
+    border-color: rgb(153, 39, 14);
+    font-size: 15px;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.submit-login:hover{
+    border-color: #000;
+    background-color: rgb(153, 39, 14) !important;
+    transition-duration: 0.5s !important;
+    color: #fff !important;
+}
+
+.card-panel{
+    transform: perspective(400px) rotateY(5deg);
+    background-color: rgb(153, 39, 14) !important;
+    box-shadow: 2px 2px 10px rgb(255,255,255, 0.2);
+}
+
+.icon-panel{
+    color: #fff;   
+}
+
+.register-head{
+    background-color: rgb(153, 39, 14);
+    border-bottom: none !important;
+}
+.register-body{
+    background-color: #000;
+    border: 2px solid rgb(153, 39, 14);
+}
+
+thead,tbody, tr{
+    background-color: #fff;
+    color: #000;
+}
+
+.table thead th{
+    border-bottom: none !important;
+}
+
+.table {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;    
+    text-align: center;
+}
+
+
+.text-panel{
+    color: #fff !important;
+}
+
+.cap{
+    text-transform: capitalize !important;
+}
+
+.del_foot{
+    border-top: none  !important;
+}
+
+.navbar-toggler{
+    background-color: rgb(153, 39, 14) !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
