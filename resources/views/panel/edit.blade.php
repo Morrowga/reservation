@@ -208,23 +208,23 @@
 </div>
 
     <div class="modal fade" id="successModalEdit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h5 class="modal-title text-center" id="exampleModalLabel">Reservation Success</h5>
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button> -->
-      </div>
-      <div class="modal-body text-center">
-        <i class="fas fa-check-circle fa-5x"></i>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-success btn-block ok-edit" data-dismiss="modal">OK</button>
-      </div>
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+            <h5 class="modal-title text-center" id="exampleModalLabel">Reservation Success</h5>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button> -->
+            </div>
+            <div class="modal-body text-center">
+            <i class="fas fa-check-circle fa-5x"></i>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success btn-block ok-edit" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+        </div>
     </div>
-  </div>
-</div>
 
     <script src="../js/jquery-1.11.1.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
