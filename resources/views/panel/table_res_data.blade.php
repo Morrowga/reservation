@@ -42,11 +42,11 @@
                     @endforeach
                 </td>
                 <td>
+                    <button class="btn btn-success viewbtn" data-toggle="modal" data-target="#viewModal" id="{{ $res->id }}"><i class="fa fa-eye pr-1"></i>View</button>
                     @if(Auth::user()->role == 'hotel_manager')
                     <a href="{{ route('res.edit', $res->id) }}" class="btn btn-info"><i class="fa fa-edit pr-1"></i>Edit</a>
-                    @endif
-                    <button class="btn btn-success viewbtn" data-toggle="modal" data-target="#viewModal" id="{{ $res->id }}"><i class="fa fa-eye pr-1"></i>View</button>
                     <button class="btn btn-danger deletebtn" id="{{ $res->id }}" data-toggle="modal" data-target="#deletemodal"><i class="fa fa-trash pr-1"></i>Delete</button></td>
+                    @endif
             </tr>
         @endforeach
     </tbody>
